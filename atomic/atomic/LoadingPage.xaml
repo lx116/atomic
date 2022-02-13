@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    NavigationPage.HasNavigationBar="false"
+    x:Class="atomic.LoadingPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid Padding="50">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#5868dd" Offset="0.1" />
+                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868DD" Offset="1" />
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image Source="https://i.ibb.co/fXPWvWX/image.png" VerticalOptions="Start" />
+            <StackLayout VerticalOptions="Center">
+                <ProgressBar Margin="30" ProgressColor="#3C2DB2" />
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

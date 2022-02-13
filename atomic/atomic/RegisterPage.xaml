@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    NavigationPage.HasNavigationBar="false"
+    x:Class="atomic.RegisterPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <Grid Padding="30">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#5868dd" Offset="0.1" />
+                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868DD" Offset="1" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Frame CornerRadius="30" VerticalOptions="Center">
+
+                <Frame.Background>
+                    <SolidColorBrush Color="White" />
+                </Frame.Background>
+                <StackLayout Padding="20,10" VerticalOptions="Center">
+
+                    <Label
+                        FontSize="Title"
+                        Margin="0,5"
+                        Text="User Information"
+                        TextColor="#5868DD" />
+                    <Line Scale="100" />
+                    <Label
+                        FontFamily="Times New Romans"
+                        FontSize="Large"
+                        Text="E-mail"
+                        VerticalOptions="Center" />
+                    <Entry
+                        Completed="Entry_OnCompleted"
+                        IsEnabled="True"
+                        IsTextPredictionEnabled="True"
+                        Keyboard="Email"
+                        VerticalOptions="Center"
+                        x:Name="Email" />
+                    <Label
+                        FontSize="Large"
+                        Text="Password"
+                        VerticalOptions="Center" />
+                    <Entry
+                        BackgroundColor="White"
+                        Completed="Entry_OnCompleted"
+                        IsPassword="True"
+                        VerticalOptions="Center"
+                        x:Name="Password" />
+                    <Label
+                        FontSize="Large"
+                        Text="Confirm Password"
+                        VerticalOptions="Center" />
+                    <Entry
+                        BackgroundColor="White"
+                        Completed="Entry_OnCompleted"
+                        IsPassword="True"
+                        VerticalOptions="Center"
+                        x:Name="PasswordC" />
+                    <Label
+                        FontSize="Large"
+                        Text="Phone"
+                        VerticalOptions="Center" />
+                    <Entry
+                        BackgroundColor="White"
+                        Completed="Entry_OnCompleted"
+                        VerticalOptions="Center"
+                        x:Name="Phone" />
+                </StackLayout>
+            </Frame>
+            <StackLayout HorizontalOptions="End" VerticalOptions="End">
+                <Button
+                    BackgroundColor="White"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    ImageSource="icon"
+                    Text="Next"
+                    TextColor="#5868DD"
+                    VerticalOptions="Center" />
+            </StackLayout>
+        </Grid>
+
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,21 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
+    NavigationPage.HasNavigationBar="false"
     x:Class="atomic.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:local="clr-namespace:atomic"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <Grid>
+        <Image Aspect="AspectFill" Source="https://i.ibb.co/7nHgHbp/7f70793388f22b3a6e910644edccb29a.jpg" />
+        <Grid Padding="30,50">
 
-        <Image Aspect="Fill" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg" />
-
-        <Label FontSize="Large" Text="ATOMIC" />
-
-        <Grid Padding="30">
+            <Label
+                CharacterSpacing="8"
+                FontSize="48"
+                HorizontalTextAlignment="Center"
+                Text="ATOMIC"
+                TextColor="White"
+                x:Name="Changed" />
             <Grid.Background>
                 <LinearGradientBrush>
-                    <GradientStop Color="#5868DD" Offset="0.1" />
-                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868dd80" Offset="0.1" />
+                    <GradientStop Color="#B8B5FFCC" Offset="0.5" />
                     <GradientStop Color="#5868DD" Offset="1" />
                 </LinearGradientBrush>
             </Grid.Background>
@@ -31,21 +36,30 @@
                         FontSize="Large"
                         Text="E-mail"
                         VerticalOptions="Center" />
-                    <Entry VerticalOptions="Center" x:Key="Input" />
+                    <Entry
+                        Completed="Entry_OnCompleted"
+                        IsEnabled="True"
+                        IsTextPredictionEnabled="True"
+                        Keyboard="Email"
+                        VerticalOptions="Center"
+                        x:Name="Email" />
                     <Label
                         FontSize="Large"
                         Text="Password"
                         VerticalOptions="Center" />
                     <Entry
                         BackgroundColor="White"
+                        Completed="Entry_OnCompleted"
                         IsPassword="True"
-                        VerticalOptions="Center" />
+                        VerticalOptions="Center"
+                        x:Name="Password" />
                 </StackLayout>
             </Frame>
 
             <StackLayout HorizontalOptions="End" VerticalOptions="End">
                 <Button
                     BackgroundColor="White"
+                    Clicked="Login"
                     CornerRadius="20"
                     HorizontalOptions="Center"
                     ImageSource="icon"
@@ -56,6 +70,7 @@
             <StackLayout HorizontalOptions="Start" VerticalOptions="End">
                 <Button
                     BackgroundColor="#0F093F"
+                    Clicked="RegisterPage"
                     CornerRadius="20"
                     HorizontalOptions="Center"
                     ImageSource="icon"
