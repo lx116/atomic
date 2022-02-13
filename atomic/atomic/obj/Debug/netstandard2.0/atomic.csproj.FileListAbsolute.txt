@@ -1,0 +1,13 @@
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/bin/Debug/netstandard2.0/atomic.deps.json
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/bin/Debug/netstandard2.0/atomic.dll
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/bin/Debug/netstandard2.0/atomic.pdb
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.csprojAssemblyReference.cache
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.AssemblyInfoInputs.cache
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.AssemblyInfo.cs
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.csproj.CoreCompileInputs.cache
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.dll
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/atomic.pdb
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/Assets/Styles/style.css.g.cs

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="atomic.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:local="clr-namespace:atomic"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid>
+
+        <Image Aspect="Fill" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg" />
+
+        <Label FontSize="Large" Text="ATOMIC" />
+
+        <Grid Padding="30">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#5868DD" Offset="0.1" />
+                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868DD" Offset="1" />
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Frame CornerRadius="30" VerticalOptions="Center">
+
+                <Frame.Background>
+                    <SolidColorBrush Color="White" />
+                </Frame.Background>
+                <StackLayout Padding="20,10" VerticalOptions="Center">
+
+                    <Label
+                        FontFamily="Times New Romans"
+                        FontSize="Large"
+                        Text="E-mail"
+                        VerticalOptions="Center" />
+                    <Entry VerticalOptions="Center" x:Key="Input" />
+                    <Label
+                        FontSize="Large"
+                        Text="Password"
+                        VerticalOptions="Center" />
+                    <Entry
+                        BackgroundColor="White"
+                        IsPassword="True"
+                        VerticalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <StackLayout HorizontalOptions="End" VerticalOptions="End">
+                <Button
+                    BackgroundColor="White"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    ImageSource="icon"
+                    Text="Login"
+                    TextColor="#5868DD"
+                    VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+                <Button
+                    BackgroundColor="#0F093F"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    ImageSource="icon"
+                    Text="Register"
+                    TextColor="#E4FBFF"
+                    VerticalOptions="Center" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+
+</ContentPage>
