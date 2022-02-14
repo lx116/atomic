@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    NavigationPage.HasNavigationBar="False"
+    x:Class="atomic.RegisterPagePersonal"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid Padding="30">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#5868dd" Offset="0.1" />
+                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868DD" Offset="1" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Frame CornerRadius="30" VerticalOptions="Center">
+
+                <Frame.Background>
+                    <SolidColorBrush Color="White" />
+                </Frame.Background>
+                <StackLayout Padding="20,10" VerticalOptions="Center">
+
+                    <Label
+                        FontSize="Title"
+                        Margin="0,5"
+                        Text="Personal information"
+                        TextColor="#5868DD" />
+                    <Label
+                        FontSize="Large"
+                        Text="First name"
+                        VerticalOptions="Center" />
+                    <Entry
+                        Completed="Entry_OnCompleted"
+                        IsTextPredictionEnabled="True"
+                        VerticalOptions="Center"
+                        x:Name="FirstName" />
+                    <Label
+                        FontSize="Large"
+                        Text="Last name"
+                        VerticalOptions="Center" />
+                    <Entry
+                        Completed="Entry_OnCompleted"
+                        VerticalOptions="Center"
+                        x:Name="LastName" />
+                    <Label
+                        FontSize="Large"
+                        Text="Birthdate "
+                        VerticalOptions="Center" />
+                    <DatePicker />
+                </StackLayout>
+            </Frame>
+            <StackLayout HorizontalOptions="End" VerticalOptions="End">
+                <Button
+                    BackgroundColor="White"
+                    Clicked="Login"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    Text="Start"
+                    TextColor="#5868DD"
+                    VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+                <Button
+                    BackgroundColor="#0F093F"
+                    Clicked="RegisterPage"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    Text="Back"
+                    TextColor="#E4FBFF"
+                    VerticalOptions="Center" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -13,3 +13,5 @@
 /Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/Assets/Styles/style.css.g.cs
 /Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/RegisterPage.xaml.g.cs
 /Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/LoadingPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/RegisterPagePersonal.xaml.g.cs
+/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/Debug/netstandard2.0/AppPage.xaml.g.cs

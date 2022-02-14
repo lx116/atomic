@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    NavigationPage.HasNavigationBar="false"
+    x:Class="atomic.AppPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid Padding="30">
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#5868dd" Offset="0.1" />
+                    <GradientStop Color="#B8B5FF" Offset="0.5" />
+                    <GradientStop Color="#5868DD" Offset="1" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <SearchBar
+                HorizontalOptions="Start"
+                Placeholder="Search a movie"
+                TextColor="White"
+                VerticalOptions="Start" />
+
+            <Label
+                FontSize="30"
+                HorizontalTextAlignment="Center"
+                Text="This is a work in progress."
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+            <Label
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                Text="More info coming soon."
+                TextColor="White"
+                VerticalOptions="EndAndExpand" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -37,7 +37,6 @@
                         Text="E-mail"
                         VerticalOptions="Center" />
                     <Entry
-                        Completed="Entry_OnCompleted"
                         IsEnabled="True"
                         IsTextPredictionEnabled="True"
                         Keyboard="Email"

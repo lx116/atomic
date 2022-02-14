@@ -19,12 +19,12 @@ namespace atomic
 
         private void Entry_OnCompleted(object sender, EventArgs e)
         {
-            
+           Login(sender, e);
         }
 
         private async void Login(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoadingPage());
+            await Navigation.PushAsync(new AppPage());
         }
 
         private async void RegisterPage(object sender, EventArgs e)

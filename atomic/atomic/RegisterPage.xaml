@@ -75,11 +75,23 @@
             <StackLayout HorizontalOptions="End" VerticalOptions="End">
                 <Button
                     BackgroundColor="White"
+                    Clicked="Next"
                     CornerRadius="20"
                     HorizontalOptions="Center"
                     ImageSource="icon"
                     Text="Next"
                     TextColor="#5868DD"
+                    VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Start" VerticalOptions="End">
+                <Button
+                    BackgroundColor="#5868DD"
+                    Clicked="Back"
+                    CornerRadius="20"
+                    HorizontalOptions="Center"
+                    ImageSource="icon"
+                    Text="Back"
+                    TextColor="White"
                     VerticalOptions="Center" />
             </StackLayout>
         </Grid>

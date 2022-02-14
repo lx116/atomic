@@ -21,5 +21,15 @@ namespace atomic
         {
             
         }
+
+        private async void Next(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPagePersonal());
+        }
+
+        private async void Back(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }
