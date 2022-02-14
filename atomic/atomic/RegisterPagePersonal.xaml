@@ -49,6 +49,14 @@
                         Text="Birthdate "
                         VerticalOptions="Center" />
                     <DatePicker />
+                    <Picker Title="Select your gender">
+                        <Picker.Items>
+                            <x:String>Male</x:String>
+                            <x:String>Female</x:String>
+                            <x:String>No Binary</x:String>
+                        </Picker.Items>
+
+                    </Picker>
                 </StackLayout>
             </Frame>
             <StackLayout HorizontalOptions="End" VerticalOptions="End">
