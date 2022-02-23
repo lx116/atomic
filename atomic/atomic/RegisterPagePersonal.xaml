@@ -14,50 +14,68 @@
                     <GradientStop Color="#5868DD" Offset="1" />
                 </LinearGradientBrush>
             </Grid.Background>
-
-            <Frame CornerRadius="30" VerticalOptions="Center">
-
+            <Frame
+                CornerRadius="30"
+                Margin="5"
+                VerticalOptions="Center">
                 <Frame.Background>
                     <SolidColorBrush Color="White" />
                 </Frame.Background>
-                <StackLayout Padding="20,10" VerticalOptions="Center">
-
-                    <Label
-                        FontSize="Title"
-                        Margin="0,5"
-                        Text="Personal information"
-                        TextColor="#5868DD" />
-                    <Label
-                        FontSize="Large"
-                        Text="First name"
-                        VerticalOptions="Center" />
-                    <Entry
-                        Completed="Entry_OnCompleted"
-                        IsTextPredictionEnabled="True"
-                        VerticalOptions="Center"
-                        x:Name="FirstName" />
-                    <Label
-                        FontSize="Large"
-                        Text="Last name"
-                        VerticalOptions="Center" />
-                    <Entry
-                        Completed="Entry_OnCompleted"
-                        VerticalOptions="Center"
-                        x:Name="LastName" />
-                    <Label
-                        FontSize="Large"
-                        Text="Birthdate "
-                        VerticalOptions="Center" />
-                    <DatePicker />
-                    <Picker Title="Select your gender">
-                        <Picker.Items>
-                            <x:String>Male</x:String>
-                            <x:String>Female</x:String>
-                            <x:String>No Binary</x:String>
-                        </Picker.Items>
-
-                    </Picker>
-                </StackLayout>
+                <ScrollView Orientation="Vertical">
+                    <StackLayout Padding="20,10" VerticalOptions="Center">
+                        <Label
+                            FontSize="Title"
+                            Margin="0,5"
+                            Text="Personal information"
+                            TextColor="#5868DD" />
+                        <Label
+                            FontSize="Large"
+                            Text="First name"
+                            VerticalOptions="Center" />
+                        <Entry
+                            Completed="Entry_OnCompleted"
+                            IsTextPredictionEnabled="True"
+                            VerticalOptions="Center"
+                            x:Name="FirstName" />
+                        <Label
+                            FontSize="Large"
+                            Text="Last name"
+                            VerticalOptions="Center" />
+                        <Entry
+                            Completed="Entry_OnCompleted"
+                            VerticalOptions="Center"
+                            x:Name="LastName" />
+                        <Label
+                            FontSize="Large"
+                            Text="Birthdate "
+                            VerticalOptions="Center" />
+                        <DatePicker />
+                        <Picker Title="Select your gender">
+                            <Picker.Items>
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                                <x:String>No Binary</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Label
+                            FontSize="Large"
+                            Text="what kind of movies do you like "
+                            VerticalOptions="Center" />
+                        <RadioButton Content="Action" />
+                        <RadioButton Content="Romance" />
+                        <RadioButton Content="Drama" />
+                        <RadioButton Content="Horror" />
+                        <RadioButton Content="terror" />
+                        <Label
+                            FontSize="Large"
+                            Text="accept the terms and conditions "
+                            VerticalOptions="Center" />
+                        <CheckBox
+                            HorizontalOptions="Center"
+                            IsChecked="False"
+                            VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </ScrollView>
             </Frame>
             <StackLayout HorizontalOptions="End" VerticalOptions="End">
                 <Button

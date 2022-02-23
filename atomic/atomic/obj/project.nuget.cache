@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bg8M2SQalSh5XqBqPC0J7xeyZcctPJ3i5TypUfG5iqit9mbhPXw4rprKaI6p1VdwKN/wVoELHJ8qyDBvby3cA==",
+  "dgSpecHash": "3hOhwTjHfndp5KthyHZdFoT6pOrv4cbVXbWYRHscJJ9FuQ0vjmfLCo7yvgtWrQ5HcuRxOKXDgqZJYw6EZ7No4Q==",
   "success": true,
-  "projectFilePath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj",
+  "projectFilePath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj",
   "expectedPackageFiles": [
     "/Users/luisenrique/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/luisenrique/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

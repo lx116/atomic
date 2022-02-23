@@ -789,11 +789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.iOS/atomic.iOS.csproj",
+      "projectUniqueName": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.iOS/atomic.iOS.csproj",
       "projectName": "atomic.iOS",
-      "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.iOS/atomic.iOS.csproj",
+      "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.iOS/atomic.iOS.csproj",
       "packagesPath": "/Users/luisenrique/.nuget/packages/",
-      "outputPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.iOS/obj/",
+      "outputPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -808,8 +808,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj": {
-              "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj"
+            "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj": {
+              "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj"
             }
           }
         }

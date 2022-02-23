@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj": {}
+    "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj": {}
   },
   "projects": {
-    "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj": {
+    "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj",
+        "projectUniqueName": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj",
         "projectName": "atomic.Droid",
-        "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj",
+        "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj",
         "packagesPath": "/Users/luisenrique/.nuget/packages/",
-        "outputPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/obj/",
+        "outputPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj": {
-                "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj"
+              "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj": {
+                "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj"
               }
             }
           }
@@ -44,14 +44,14 @@
         }
       }
     },
-    "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj": {
+    "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj",
+        "projectUniqueName": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj",
         "projectName": "atomic",
-        "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj",
+        "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj",
         "packagesPath": "/Users/luisenrique/.nuget/packages/",
-        "outputPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/",
+        "outputPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luisenrique/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZPTCEYc6HN9+lr0PSbSh2vLX8CMnbWz3UcGuvEGzfS/HdmipySQ2DJoxIuAOa/FRDZg3DnlAMEYCn/ti+iqhg==",
+  "dgSpecHash": "GICw+IhQNriq+V/vLz4PDoqECsEysJ/lZ55MybDmCFEycr64a4Oxt50dFp6uJl50wjNFbsodjbeIXbDXdSwJ1A==",
   "success": true,
-  "projectFilePath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj",
+  "projectFilePath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj",
   "expectedPackageFiles": [
     "/Users/luisenrique/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "/Users/luisenrique/.nuget/packages/xamarin.androidx.annotation/1.1.0.8/xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

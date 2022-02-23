@@ -419,11 +419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj",
+      "projectUniqueName": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj",
       "projectName": "atomic",
-      "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj",
+      "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj",
       "packagesPath": "/Users/luisenrique/.nuget/packages/",
-      "outputPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/obj/",
+      "outputPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/luisenrique/.nuget/NuGet/NuGet.Config"

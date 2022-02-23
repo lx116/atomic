@@ -2022,11 +2022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj",
+      "projectUniqueName": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj",
       "projectName": "atomic.Droid",
-      "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/atomic.Droid.csproj",
+      "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/atomic.Droid.csproj",
       "packagesPath": "/Users/luisenrique/.nuget/packages/",
-      "outputPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic.Droid/obj/",
+      "outputPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic.Droid/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2041,8 +2041,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj": {
-              "projectPath": "/Users/luisenrique/RiderProjects/atomic/atomic/atomic/atomic.csproj"
+            "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj": {
+              "projectPath": "/Users/luisenrique/RiderProjects/xd/atomic/atomic/atomic.csproj"
             }
           }
         }
